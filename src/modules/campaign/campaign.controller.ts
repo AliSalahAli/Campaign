@@ -57,8 +57,8 @@ export class CampaignController {
   async search(
     @Query('page') page: number,
     @Query('limit') limit: number,
-    @Query('startDate') startDate: string,
-    @Query('endDate') endDate: string,
+    @Query('start_date') startDate: string,
+    @Query('end_date') endDate: string,
     @Query('age') age: string,
     @Query('fb_campaign_id') fbCampaingId: number,
     @Query('xyz_campaign_id') xyzCampaignId: number,
